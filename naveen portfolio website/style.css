@@ -1,0 +1,355 @@
+body{
+    background-color: rgb(18, 18, 75);
+}
+.navbar_main{
+    background-color: rgb(13, 12, 41);
+}
+.link_button_value_style{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.link_button_value_style:hover{
+    background-color: rgb(50, 50, 116);
+    border-radius: 5px;
+}
+
+.link_button_value_style a:hover{
+    color: rgb(216, 215, 255) !important;
+}
+
+#home_page_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw;
+    height: 100vh; */
+    background-color: rgb(18, 18, 75);
+}
+#home_content_all{
+    background-color: rgb(18, 18, 75);
+}
+
+
+.home_common_color{
+    color: rgb(255, 255, 255);
+}
+
+/* Container styling */
+.container {
+overflow: hidden;
+}
+
+/* Text styling */
+.text {
+white-space: nowrap;
+overflow: hidden;
+border-right: .16em solid rgb(255, 240, 212); /* Typing cursor */
+animation: typeAnimation 5s steps(30, end) infinite;
+
+}
+
+
+/* Keyframes for animation */
+@keyframes typeAnimation {
+from {
+    width: 0;
+}
+to {
+    width: 17rem;
+}
+}
+
+.home_page_image_style{
+    border-radius: 47%; 
+    border: none;
+    position: relative;
+    box-shadow: 1px 1px 50px 1px white;
+    animation: colorchangeanimation 6s infinite;
+    animation-fill-mode: both;
+
+}
+@keyframes colorchangeanimation {
+    0% {
+        top: 20px;
+        bottom:0px;
+        box-shadow: 1px 1px 50px 1px rgb(255, 21, 21);
+    }
+    20% {
+        top: 0px;
+        bottom:20px;
+        box-shadow: 1px 1px 50px 1px rgb(251, 255, 0);
+    }
+    40% {
+        top: 20px;
+        bottom:0px;
+        box-shadow: 1px 1px 50px 1px rgb(0, 102, 255);
+    }
+    60% {
+        top: 0px;
+        bottom:20px;
+        box-shadow: 1px 1px 50px 1px rgb(255, 0, 140);
+    }
+    80% {
+        top: 20px;
+        bottom:0px;
+       box-shadow: 1px 1px 50px 1px rgb(174, 0, 255);
+    }
+    100% {
+        top: 0px;
+        bottom:20px;
+        box-shadow: 1px 1px 50px 1px rgb(73, 255, 2);
+    }
+}
+
+#about_page_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: 100vh;
+    background-color: rgb(18, 18, 75);
+}
+#about_content_all{
+    background-color: rgb(18, 18, 75);
+}
+
+.about_common_color{
+    color: rgb(255, 255, 255);
+}
+
+/* education style start */
+#education_page_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 97vw;
+}
+
+#education_content_all{
+    display: flex; 
+    justify-content: center;
+    align-items: end;
+}
+.education_page_image_style{
+    width: 220px; 
+    height: 220px; 
+    border-radius: 50%;
+    animation: education_colorchangeanimation 30s infinite;
+
+}
+@keyframes education_colorchangeanimation {
+    0% {
+        box-shadow: 1px 1px 50px 1px rgb(255, 21, 21);
+    }
+    20% {
+        box-shadow: 1px 1px 50px 1px rgb(251, 255, 0);
+    }
+    40% {
+        box-shadow: 1px 1px 50px 1px rgb(0, 102, 255);
+    }
+    60% {
+        box-shadow: 1px 1px 50px 1px rgb(255, 0, 140);
+    }
+    80% {
+       box-shadow: 1px 1px 50px 1px rgb(174, 0, 255);
+    }
+    100% {
+        box-shadow: 1px 1px 50px 1px rgb(73, 255, 2);
+    }
+}
+/* education style end   */
+
+/* experience style start */
+#experience_page_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 97vw;
+}
+
+#experience_content_all{
+    display: flex; 
+    justify-content: center;
+    align-items: end;
+}
+.common_experience_main_class:hover{
+    transform: scale(1.1);
+}
+
+.experience_common_heading_color{
+    animation: experience_colorchangeanimation 7s infinite;
+
+}
+@keyframes experience_colorchangeanimation {
+    0% {
+        text-shadow: 1px 1px 20px  rgb(255, 21, 21);
+        color:  rgb(255, 21, 21);
+    }
+    20% {
+        text-shadow: 1px 1px 20px  rgb(251, 255, 0);
+        color:  rgb(251, 255, 0);
+    }
+    40% {
+        text-shadow: 1px 1px 20px  rgb(0, 102, 255);
+        color:  rgb(0, 102, 255);
+    }
+    60% {
+        text-shadow: 1px 1px 20px  rgb(255, 0, 140);
+        color:  rgb(255, 0, 140);
+    }
+    80% {
+        text-shadow: 1px 1px 20px rgb(174, 0, 255) ;
+       color:  rgb(174, 0, 255);
+    }
+    100% {
+        text-shadow: 1px 1px 20px  rgb(73, 255, 2) ;
+        color:  rgb(73, 255, 2);
+    }
+}
+/* experience style end */
+
+/* skills style start */
+#skills_page_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 97vw;
+}
+
+#skills_content_all{
+    display: flex; 
+    justify-content: center;
+    align-items: end;
+}
+
+.form-range::-webkit-slider-thumb {
+    background: #FFE1FF;
+  }
+  .form-range::-moz-range-thumb {
+    background: #FFE1FF;
+  }
+  .form-range::-ms-thumb {
+    background: #FFE1FF;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .form-range::-webkit-slider-thumb {
+      -webkit-transition: none;
+      transition: none;
+    }
+  }
+  .form-range::-webkit-slider-thumb:active {
+    background-color: #FF8000;
+  }
+  .form-range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 0.5rem;
+    color: transparent;
+    cursor: pointer;
+    background-color: #FF8000;
+    border-color: transparent;
+    border-radius: 1rem;
+  }
+  
+/* skills style end   */
+
+input[type="range"] {
+    /* Styles for the track */
+    width: 100%; /* Set the width of the track */
+    height: 8px; /* Set the height of the track */
+    appearance: none; /* Remove default appearance */
+    background-color: #ddd; /* Set the background color of the track */
+    border-radius: 5px; /* Set the border radius to make it rounded */
+
+    /* Styles for the thumb (the draggable handle) */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Styles for the thumb when it's active (clicked on) */
+input[type="range"]:active::-webkit-slider-thumb {
+    background-color: #007bff; /* Set the background color of the thumb */
+}
+
+/* Styles for the thumb */
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none; /* Remove default appearance */
+    width: 16px; /* Set the width of the thumb */
+    height: 16px; /* Set the height of the thumb */
+    background-color: #007bff; /* Set the background color of the thumb */
+    border-radius: 50%; /* Set border radius to make it circular */
+    border: 2px solid #007bff; /* Set border color and thickness */
+}
+
+/* Styles for the thumb on hover */
+input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+/* flip project card start */
+.flip-card {
+    background-color: transparent;
+    width: 280px;
+    height: 210px;
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 7, 49);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+/* flip project card end   */
+/* flip main box style start */
+#project_page_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 97vw;
+}
+
+#project_content_all{
+    display: flex; 
+    justify-content: center;
+    align-items: end;
+}
+/* flip main box style end */

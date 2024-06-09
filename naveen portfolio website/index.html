@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar_main fixed-top" style="background: linear-gradient(35deg, rgb(18, 18, 75),rgb(47, 47, 155),rgb(18, 18, 75));">
+        <div class="container-fluid p-0">
+          <a class="navbar-brand text-light ps-4" href="#">Port Folio</a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-light"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 me-4 mb-lg-0">
+              <li class="nav-item link_button_value_style">
+                <a class="nav-link text-light" aria-current="page" href="#home_page_main">Home</a>
+              </li>
+              <li class="nav-item link_button_value_style">
+                <a class="nav-link text-light" href="#about_page_main">About</a>
+              </li>
+              <li class="nav-item link_button_value_style">
+                <a class="nav-link text-light" href="#education_page_main">Education</a>
+              </li>
+              <li class="nav-item link_button_value_style">
+                <a class="nav-link text-light" href="#experience_page_main">Experience</a>
+              </li>
+              <li class="nav-item link_button_value_style">
+                <a class="nav-link text-light" href="#project_page_main">Project</a>
+              </li>
+              <li class="nav-item link_button_value_style">
+                <a class="nav-link text-light" href="#skills_page_main">Skill</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid p-0">
+
+        <!-- home page content start -->
+        <div class="container-fluid mt-5 pt-5 pb-5 mb-3" id="home_page_main">
+            <div class="row container" id="home_content_all" >
+              <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center;">
+                <h4 class="home_common_color col-s12"  >Hi, Myself</h4>
+                <h1 class="home_common_color col-s12" >Naveen K</h1>
+                <h4 class="home_common_color col-s12">And I'm a </h4>
+                <h3 class="home_common_color col-s12"   ><div class="text col-12" style="color:rgb(63, 178, 255);" >Software Developer.</div></h3>
+                <p  class="home_common_color col-s12" style="text-indent: 20px; text-align: justify;">A software developer designs, develops, and maintains software applications to 
+                  meet specific user needs. They utilize programming languages, frameworks, 
+                  and tools to create efficient and functional solutions, ensuring optimal performance and user satisfaction.
+                </p>
+                   <div class="row">
+                    <!-- <button type="button" class="btn btn-outline-primary ">Primary</button>
+                    <button type="button" class="btn btn-outline-primary">Primary</button>
+                    <button type="button" class="btn btn-outline-primary">Primary</button>
+                    <button type="button" class="btn btn-outline-primary">Primary</button> -->
+                   </div>
+                   
+                  <button type="button" class="btn btn-outline-info" style="box-shadow: 0px 0px 10px 0.3px rgb(136, 184, 255);">Download CV</button>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 p-5 text-center" >
+                    <img src="image/BackgroundEraser_20240503_093044452.jpg" class="col-sm-10 col-md-9 col-lg-11 col-xl-11 col-xxl-11 img-fluid  w-10 h-10 home_page_image_style"  alt="noimage">
+              </div>
+            </div>
+          </div>
+          <!-- home page content end. -->
+
+           
+        <!-- about page content start -->
+        <div class="container-fluid " id="about_page_main">
+          <div class="row container" id="about_content_all" >
+            <center>
+              <h2 class="home_common_color col-s12" style="text-decoration: underline; text-underline-offset: 8px;">
+                About</h2>
+            </center>
+
+            <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 p-5 text-center" >
+              <img src="image/BackgroundEraser_20240503_093357212.jpg" class="col-sm-10 col-md-9 col-lg-11 col-xl-11 col-xxl-11 img-fluid  w-10 h-10 home_page_image_style"  alt="noimage">
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center;">
+              <h2 class="about_common_color col-12"  >About <span style="color:rgb(63, 178, 255);" >Me</span></h2>
+              <h5 class="about_common_color col-12"  >Backend Developer</h5>
+
+              <p  class="about_common_color col-12" style="text-indent: 20px; text-align: justify;" >     
+                Result-driven software developer with a year of experience.  Proficient in crafting dynamic Web solutions 
+                with a keen eye for detail and user experience. Skilled in client interaction ...
+              </p>
+
+              <button type="button" style="box-shadow: 0px 0px 10px 0.3px rgb(136, 184, 255);" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Read More
+              </button>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- about page content end -->
+
+        <!-- read more open model start -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog ">
+            <div class="modal-content col-sm-10 col-md-10 col-lg-12 col-xl-12 col-xxl-12" style="background-color: rgb(169, 158, 199);">
+              <div class="modal-header">
+                <h3 class="modal-title " id="exampleModalLabel">About <span style="color:rgb(63, 178, 255);" >Me</span></h3>
+                <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p  class=" col-s12 " style="text-transform: capitalize; text-align: justify; text-indent: 2rem;" >     Result-driven software developer with a year of experience. 
+                  Proficient in crafting dynamic Web solutions with a keen eye for detail and user experience. Skilled in client interaction, adept at
+                  understanding and translating client requirements into actionable technical specifications. Excited to 
+                  further enhance my skills and contribute to innovative projects in the software development realm.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- read more open model end -->
+
+         <!-- Education page content start -->
+         <div class="container-fluid " id="education_page_main" >
+          <div class="row container-fluid" id="education_content_all"  >
+            <center>
+              <h2 class="home_common_color col-s12" style="text-decoration: underline; text-underline-offset: 8px;">
+                Education</h2>
+            </center>
+
+          <div class="row col-12 " style="padding: 2rem;  display: flex; justify-content: center; align-items: center;">
+              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5  home_common_color" style="display: flex; align-items:flex-end; justify-content:center; ">    <img src="image/ugimage.jpg" class="col-sm-10 col-md-9 col-lg-11 col-xl-11 col-xxl-11 img-fluid education_page_image_style"   alt="noimage">
+              </div>
+              <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7  home_common_color" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center; "> 
+                  <h2><span style="color: rgb(63, 178, 255) ;">BSC </span>- Computer Science</h2>
+                  <h4>Government Arts and Science College</h4>
+                  <p><span style="font-weight: 700;">Year : </span>2018 - 2021 <br> <span style="font-weight: 700;">percentage : </span>74%</p>
+              </div>
+          
+          
+              <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5  home_common_color" style="display: flex; flex-direction: column; align-items: flex-end; justify-content: center; ">  
+                <h2><span style="color:rgb(63, 178, 255) ;">MSC </span>- Computer Science</h2>
+                <h4>Government Arts and Science College</h4>
+                <p><span style="font-weight: 700;">Year : </span>2021 - 2023 <br> <span style="font-weight: 700;">percentage : </span>70%</p>
+              </div>
+              <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7  home_common_color" style="display: flex; align-items: flex-start; justify-content: center; ">    <img src="image/pgimage.jpg" class="col-sm-10 col-md-9 col-lg-11 col-xl-11 col-xxl-11 img-fluid education_page_image_style"  alt="noimage">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- Education page content end -->
+
+      
+        <!-- Experience page content start -->
+        <div class="container-fluid " id="experience_page_main" >
+        <div class="row container-fluid" id="experience_content_all"  >
+          <center>
+            <h2 class="home_common_color col-s12" style="text-decoration: underline; text-underline-offset: 8px;">
+              Experience</h2>
+          </center>
+
+        <div class="row col-12 " style="padding: 2rem; display: flex; justify-content: center; align-items: center;">
+          <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 row-cols-lg-3 g-4 ">
+            <div class="col" >
+              <div class="card border-primary common_experience_main_class" style="background: linear-gradient(35deg, rgb(18, 18, 75),rgb(47, 47, 155),rgb(18, 18, 75)); color: white; box-shadow: 0px 0px 25px 1px rgb(182, 208, 255);">
+                <h1 style="text-align: center; font-weight: 700;  color: rgb(63, 178, 255); letter-spacing: 1px;" class="experience_common_heading_color">Senchola</h1>
+                <hr style="margin: 0px; padding: 0px;">
+                <!-- <img src="image/companyimage.png" style="opacity: 0.5; background: transparent;" class="card-img-top" alt="..."> -->
+                <div class="card-body">
+                  <h5 class="card-title" style="color: rgb(63, 178, 255);">Backend Developer - Internship</h5>
+                  <p style="margin: 0;"><span style="font-weight: 700; font-size: 17px;">Date : </span style="font-size:13px;">June 2023 - September 2023</p>
+                  <p class="card-text" style="font-size: 13px;"><span style="font-weight: 700; font-size: 17px;">Project : </span>Working with social Media mobile app. Jornel News Post Web Application. <br> <span style="font-weight: 700; font-size: 17px;">Skill : </span>PHP ,Mysql ,API ,Post man , Git, Laravel, Ajax ,JavaScript ,HTML ,Css ,Bootstrap</p>
+                  <!-- <p>Skill : PHP ,Mysql ,API ,Post man , Git, Laravel, Ajax ,JavaScript ,HTML ,Css ,Bootstrap</p> -->
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-primary common_experience_main_class" style="background: linear-gradient(35deg, rgb(18, 18, 75),rgb(47, 47, 155),rgb(18, 18, 75)); color: white; box-shadow: 0px 0px 25px 1px rgb(182, 208, 255);">
+                <h1 style="text-align: center; color: rgb(63, 178, 255); font-weight: 700; letter-spacing: 1px;" class="experience_common_heading_color">Senchola</h1><hr style="margin: 0px; padding: 0px;">
+                <!-- <img src="image/companyimage.png" style="opacity: 0.5; background: transparent;" class="card-img-top" alt="..."> -->
+                <div class="card-body">
+                  <h5 class="card-title" style="color: rgb(63, 178, 255);">Backend Developer</h5>
+                  <p style="margin: 0;"><span style="font-weight: 700; font-size: 17px;">Date : </span style="font-size:13px;">October 2023 - working </p>
+                  <p class="card-text" style="font-size: 13px; "><span style="font-weight: 700; font-size: 17px;">Project : </span> Architecture Seven Type of Service based Web Application. <br><span style="font-weight: 700; font-size: 17px;">Skill : </span> PHP ,Codeigniter ,Mysql ,Git, Ajax ,JavaScript ,HTML ,Css ,Bootstrap ,UI Design</p>
+                  <!-- <p>Skill : PHP ,Codeigniter ,Mysql ,Git, Ajax ,JavaScript ,HTML ,Css ,Bootstrap ,UI Design</p> -->
+                </div>
+              </div>
+            </div>
+        
+          </div>
+
+        </div>
+      </div>
+    </div>
+      <!-- Experience page content end -->
+      
+      
+        <!-- project page content start -->
+        <div class="container-fluid " id="project_page_main" >
+          <div class="row container-fluid" id="project_content_all"  >
+            <center>
+              <h2 class="home_common_color col-s12" style="text-decoration: underline; text-underline-offset: 8px;">
+                Project</h2>
+            </center>
+  
+          <div class="row col-12 " style="padding: 2rem; display: flex; justify-content: center; align-items: center;">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 row-cols-lg-3 g-4 " style="padding: 0px; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+
+              <div class="flip-card col-12 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-sx-6" style=" border: none; border-radius: 10px;  box-shadow: 0px 0px 15px 1px rgb(63, 178, 255); padding: 0px; ">
+                <div class="flip-card-inner"  style="border-radius: 10px;">
+                  <div class="flip-card-front" style="border-radius: 10px;">
+                    <img src="image/agriculturl2.jpeg" class="col-sm-10 col-md-9 col-lg-11 col-xl-11 col-xxl-11 img-fluid" style="width: 100%; height: 100%; border-radius: 10px;"  alt="noimage">
+                  </div>
+                  <div class="flip-card-back" style="border-radius: 10px;">
+                    <h3>Agriculture</h3>
+                    <p>Web & Mobile Application</p>
+                    <p style="padding-left: 10px; padding-right: 10px; text-align: justify;">Craft a static agriculture web app with React for dynamic content and HTML/CSS for structure and styling.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card col-12 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-sx-6" style=" border: none; border-radius: 10px;  box-shadow: 0px 0px 15px 1px rgb(63, 178, 255); padding: 0px; ">
+                <div class="flip-card-inner"  style="border-radius: 10px;">
+                  <div class="flip-card-front" style="border-radius: 10px;">
+                    <img src="image/food_menu2.jpeg" class="col-sm-10 col-md-9 col-lg-11 col-xl-11 col-xxl-11 img-fluid" style="width: 100%; height: 100%; border-radius: 10px;"  alt="noimage">
+                  </div>
+                  <div class="flip-card-back" style="border-radius: 10px;">
+                    <h3>Food Menu</h3>
+                    <p>Web & Mobile Application</p>
+                    <p style="padding-left: 10px; padding-right: 10px; text-align: justify;">Design a static food menu web app using HTML for structure and CSS for styling, providing an intuitive browsing experience.</p>
+                 </div>
+                </div>
+              </div>
+              
+              <div class="flip-card col-12 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-sx-6" style=" border: none; border-radius: 10px;  box-shadow: 0px 0px 15px 1px rgb(63, 178, 255); padding: 0px; ">
+                <div class="flip-card-inner"  style="border-radius: 10px;">
+                  <div class="flip-card-front" style="border-radius: 10px;">
+                    <img src="image/archtectural.jpeg" class="col-sm-10 col-md-9 col-lg-11 col-xl-11 col-xxl-11 img-fluid" style="width: 100%; height: 100%; border-radius: 10px;"  alt="noimage">
+                  </div>
+                  <div class="flip-card-back" style="border-radius: 10px;">
+                    <h3>Architecture</h3>
+                    <p>Web & Mobile Application</p>
+                    <p style="padding-left: 10px; padding-right: 10px; text-align: justify;">Utilize React for dynamic UI rendering and HTML/CSS for structure and styling in a static web application architecture.</p>
+                 </div>
+                </div>
+              </div>
+
+              <div class="flip-card col-12 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-sx-6" style=" border: none; border-radius: 10px;  box-shadow: 0px 0px 15px 1px rgb(63, 178, 255); padding: 0px; ">
+                <div class="flip-card-inner"  style="border-radius: 10px;">
+                  <div class="flip-card-front" style="border-radius: 10px;">
+                    <img src="image/attentance2.jpeg" class="col-sm-10 col-md-9 col-lg-11 col-xl-11 col-xxl-11 img-fluid" style="width: 100%; height: 100%; border-radius: 10px;"  alt="noimage">
+                  </div>
+                  <div class="flip-card-back" style="border-radius: 10px;">
+                    <h3>Face Detection Attentance</h3>
+                    <!-- <p>Web Application</p> -->
+                    <p style="padding-left: 10px; padding-right: 10px; text-align: justify;">Develop a dynamic face detection attendance system web app using Python/PHP/MySQL/jQuery/HTML/CSS.</p>
+                 </div>
+                </div>
+              </div>
+
+              <div class="flip-card  col-12 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-sx-6" style=" border: none; border-radius: 10px;  box-shadow: 0px 0px 15px 1px rgb(63, 178, 255); padding: 0px; ">
+                <div class="flip-card-inner"  style="border-radius: 10px;">
+                  <div class="flip-card-front" style="border-radius: 10px;">
+                    <img src="image/social_media.jpeg" class="col-sm-10 col-md-9 col-lg-11 col-xl-11 col-xxl-11 img-fluid" style="width: 100%; height: 100%; border-radius: 10px;"  alt="noimage">
+                  </div>
+                  <div class="flip-card-back" style="border-radius: 10px;">
+                    <h3>Social Media</h3>
+                    <!-- <p>MobileApplication</p> -->
+                    <p style="padding-left: 10px; padding-right: 10px; text-align: justify;">Craft a dynamic social media web app with PHP for backend functionality, integrating APIs and AJAX for seamless interaction, tested with Postman for robust performance.</p>
+                </div>
+                </div>
+              </div>
+          
+            </div>
+  
+          </div>
+        </div>
+      </div>
+        <!-- project page content end -->
+      
+         <!-- skills page content start -->
+         <div class="container-fluid " id="skills_page_main" >
+          <div class="row container-fluid" id="skills_content_all"  >
+            <center>
+              <h2 class="home_common_color col-s12" style="text-decoration: underline; text-underline-offset: 8px;">
+                Skill</h2>
+            </center>
+
+          <div class="row col-12 " style="padding: 2rem;  display: flex; justify-content: center; align-items: center;">
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;">
+              <label for="customRange3" class="form-label home_common_color">Python</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="3.5" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;"">
+              <label for="customRange3" class="form-label home_common_color">C++</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="2.5" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;">
+              <label for="customRange3" class="form-label home_common_color">Java</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="3" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;">
+              <label for="customRange3" class="form-label home_common_color">Mysql</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="3" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;"">
+              <label for="customRange3" class="form-label home_common_color">HTML</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="4" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;">
+              <label for="customRange3" class="form-label home_common_color">CSS</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="4" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;">
+              <label for="customRange3" class="form-label home_common_color">Bootstrap</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="3" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;"">
+              <label for="customRange3" class="form-label home_common_color">JavaScript</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="3" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;">
+              <label for="customRange3" class="form-label home_common_color">jquery</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="3" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;"">
+              <label for="customRange3" class="form-label home_common_color">PHP</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="3" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;">
+              <label for="customRange3" class="form-label home_common_color">Ajax</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="3" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;"">
+              <label for="customRange3" class="form-label home_common_color">Git</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="2" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;">
+              <label for="customRange3" class="form-label home_common_color">GitHub</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="2" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;"">
+              <label for="customRange3" class="form-label home_common_color">JSON</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="3" id="customRange3">
+            </div>
+            <div class="row col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 " style="padding: 5px; margin: 5px;">
+              <label for="customRange3" class="form-label home_common_color">Codeigniter</label>
+              <input type="range" class="form-range" min="0" max="5" step="1" value="3" id="customRange3">
+            </div>
+          </div>
+
+          </div>
+        </div>
+        <!-- skills page content end -->
+
+      </div>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
